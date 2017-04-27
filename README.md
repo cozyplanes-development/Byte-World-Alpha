@@ -11,5 +11,5 @@ Most basic things were not still been implemented as moving the character or oth
 
 Main Programmer(Idea and main code): Haxk20.
 
-Programmer(Helped with lot of code): Vu-Prox.
+Co-Programmer(Helped with lot of code): Vu Prox.
 
