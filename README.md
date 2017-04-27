@@ -10,5 +10,6 @@ This game is in very Early Alpha stage Progress is made every day.
 Most basic things were not still been implemented as moving the character or other basic stuff.
 
 Main Programmer(Idea and main code): Haxk20.
+
 Programmer(Helped with lot of code): Vu-Prox.
 
