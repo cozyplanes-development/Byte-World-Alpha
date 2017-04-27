@@ -1,5 +1,7 @@
 # Byte-World-Alpha
-Byte World is game created in C++ with C libraries to use C++ compiler just for Classes.
+Byte World is game created in C++ with C libraries.
+
+Game is 2D.
 
 Game is created with SDL2.
 
