@@ -114,7 +114,7 @@ class Rain {
 				if (rain) {
 			for (int RainArray = 0; RainArray < RainDrops; RainArray++) {
 				if (Rain[RainArray].form.y > screen) {
-					Rain[RainArray].form.y = lastY[RainDrops];
+					Rain[RainArray].form.y = lastY[RainArray];
 				}
 			}
 				}
