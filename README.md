@@ -9,9 +9,9 @@ The point of game is that atoms are made of bytes and you can change code of eve
 
 This game is in very Early Alpha stage Progress is made every day.
 
-Most basic things were not still been implemented as moving the character or other basic stuff.
+Most basic things were not still been implemented.
 
 Main Programmer(Idea and main code): Haxk20.
 
-Co-Programmer(Helped with lot of code): Vu Prox.
+Thanks to  Vu Prox for helping me with code.
 
