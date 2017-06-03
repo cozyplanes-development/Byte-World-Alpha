@@ -1,6 +1,6 @@
 // Created by:
 // Main Coder: Haxk20;
-// Co Coder: Vu Prox;
+// Thanks to Vu Prox for helping me with code;
 // Tester: Programmers;
 #include <SDL2/SDL.h>
 #include <stdio.h>
@@ -126,7 +126,7 @@ int main() {
 
     SDL_GetDesktopDisplayMode(0, &screen);
     window =
-            SDL_CreateWindow("Byte World Pre-Alpha 1.4", SDL_WINDOWPOS_UNDEFINED,
+            SDL_CreateWindow("Byte World Pre-Alpha 1.5", SDL_WINDOWPOS_UNDEFINED,
             SDL_WINDOWPOS_UNDEFINED, screen.w, screen.h,
             SDL_WINDOW_OPENGL | SDL_WINDOW_FULLSCREEN_DESKTOP);
 
@@ -264,16 +264,8 @@ int main() {
                 break;
             }
         }
-        //Collision checker for left and right sides of block;
-        for (int a = 0; a < l; a++) {
-            if (Player.form.y - 1 <= objects[a].form.y + objects[a].form.h
-                    && Player.form.y - 1 + Player.form.h >= objects[a].form.y
-                    && Player.form.x + 1 <= objects[a].form.x + objects[a].form.w
-                    && Player.form.x + Player.form.w - 2 >= objects[a].form.x) {
-                collX = true;
-                break;
-            }
-        }
+        
+       
         if (!coll) {
             Player.move(0, 1);
         }
